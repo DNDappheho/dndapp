@@ -1,0 +1,40 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #1e1e1e;
+  color: #f0f0f0;
+}
+
+#app {
+  max-width: 800px;
+  margin: auto;
+  padding: 20px;
+}
+
+textarea, input, select, button {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  border: none;
+}
+
+button {
+  background-color: #4caf50;
+  color: white;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+#storyLog {
+  background-color: #2b2b2b;
+  padding: 10px;
+  height: 300px;
+  overflow-y: scroll;
+  border-radius: 5px;
+}
