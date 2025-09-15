@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>D&D AI DM</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="app">
+    <h1>D&D AI Dungeon Master</h1>
+
+    <section id="setup">
+      <h2>Starting Scenario</h2>
+      <textarea id="startingScenario" placeholder="Describe the beginning of your story..."></textarea>
+      <button id="startStoryBtn">Start Story</button>
+    </section>
+
+    <section id="players">
+      <h2>Players</h2>
+      <div id="playerList"></div>
+      <button id="addPlayerBtn">Add Player</button>
+    </section>
+
+    <section id="turn">
+      <h2>Player Action</h2>
+      <select id="currentPlayer"></select>
+      <input type="text" id="playerAction" placeholder="Enter action...">
+      <button id="nextTurnBtn">Next Turn</button>
+    </section>
+
+    <section id="story">
+      <h2>Story Log</h2>
+      <div id="storyLog"></div>
+    </section>
+  </div>
+
+<script src="script.js"></script>
+</body>
+</html>
